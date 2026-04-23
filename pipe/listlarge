@@ -1,0 +1,10 @@
+#!/bin/sh
+#list the file in size sorted 
+#
+#Author : Seyun Kim
+ls -S 2> /dev/null |
+head -n 2 |
+tr -d ' ' |
+tr 'A-Z' 'a-z'|
+paste - -
+

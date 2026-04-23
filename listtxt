@@ -1,0 +1,9 @@
+#! /bin/sh
+#generate info directory and create mytextfiles.txt list of all txt files. 
+#
+#Author: Seyun Kim
+
+mkdir -p info
+ls *.txt 2> /dev/null > info/mytextfiles.txt
+
+
